@@ -12,23 +12,23 @@
 
 *Skills:*
 
--Website Development (Front-end, Back-end)
--Entrepreneurship
--Leadership
--Strategic Planning
--Team Management
--Digital Marketing
--User Experience (UX) Design
--E-commerce Solutions
+- Website Development (Front-end, Back-end)
+- Entrepreneurship
+- Leadership
+- Strategic Planning
+- Team Management
+- Digital Marketing
+- User Experience (UX) Design
+- E-commerce Solutions
 
 *Personal Interests:*
 
--Technology trends
--Innovative solutions
--Mentorship
--Community development
--Reading
--Traveling
+- Technology trends
+- Innovative solutions
+- Mentorship
+- Community development
+- Reading
+- Traveling
 
 *Mission:* Empowering businesses and individuals through cutting-edge digital solutions.
 
@@ -36,16 +36,18 @@
 
 *FocusTech Company:*
 
--Founded in 2024
--Specializes in website creation, web application development, and digital marketing
--Serves clients across [industries/regions]
--Committed to delivering high-quality solutions with exceptional customer service
+- Founded in 2024
+- Specializes in website creation, web application development, and digital marketing
+- Serves clients across [industries/regions]
+- Committed to delivering high-quality solutions with exceptional customer service
 
 *Social Media:*
 
--Instagram: https://www.instagram.com/focuskid19
--Facebook: https://www.facebook.com/profile.php?id=61563183089843
+- Instagram: https://www.instagram.com/focuskid19
+- Facebook: https://www.facebook.com/profile.php?id=61563183089843
 
--Email: chibuikeedomani@gmail.com
--Phone: +2347061400188
--Address: FCT Nigeria.
+*Contact:*
+
+- Email: chibuikeedomani@gmail.com
+- Phone: +2347061400188
+- Address: FCT Nigeria.
